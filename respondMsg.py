@@ -59,7 +59,7 @@ policy_rules = {
     (INIT, "restaurant_search"): (RESTA_SE, responseDic.responses["restaurant_search"]),
     (INIT, "restaurant_info"): (RESTA_INF, responseDic.responses["restaurant_info"]),
 
-    (RESTA_SE, "affirm"): (PICK_RESTA, ["ok, which one do you want to know more about?"]),
+    (RESTA_SE, "affirm"): (PICK_RESTA, ["ok, which one do you want to know more about? Please tell me its name!"]),
     (RESTA_SE, "restaurant_info"): (RESTA_INF, responseDic.responses["restaurant_info"]),
     (RESTA_SE, "restaurant_search"): (ASK_RESTA_SE, ["Do you want to start a new search?"]),
     (RESTA_SE, "goodbye"): (INIT, ["OK, bye"]),
