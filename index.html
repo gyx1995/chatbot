@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .talk_con{
+            width:600px;
+            height:500px;
+            border:1px solid #666;
+            border-radius: 8px;
+            margin:50px auto 0;
+            background:#3CBC8D;
+        }
+        .talk_show{
+            width:580px;
+            height:420px;
+            border:1px solid #666;
+            border-radius: 8px;
+            background:#fff;
+            margin:10px auto 0;
+            overflow:auto;
+        }
+        .talk_input{
+            width:580px;
+            margin:10px auto 0;
+            border-radius: 8px;
+        }
+        .whotalk{
+            width:80px;
+            height:30px;
+            float:left;
+            outline:none;
+        }
+        .talk_word{
+            width:500px;
+            height:26px;
+            padding:0px;
+            border-radius: 4px;
+            float:left;
+            margin-left:10px;
+            outline:none;
+            text-indent:10px;
+        }        
+        .talk_sub{
+            width:56px;
+            height:30px;
+            float:left;
+            margin-left:10px;
+        }
+        .atalk{
+           margin:10px; 
+        }
+        .atalk span{
+            display:inline-block;
+            background:#0181cc;
+            word-wrap: break-word
+            color:#fff;
+            padding:5px 10px;
+        }
+        .btalk{
+            margin:10px;
+            text-align:right;
+        }
+        .btalk span{
+            display:inline-block;
+            background:#ef8201;
+            word-wrap: break-word
+            color:#fff;
+            padding:5px 10px;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    //
+        window.onload = function(){
+            var Words = document.getElementById("words");
+            var TalkWords = document.getElementById("talkwords");
+            var TalkSub = document.getElementById("talksub");
+
+            function return_respopnse(returnResponse) {
+                div = document.getElementById('words');
+                ask = '<div class="btalk"><span>' + TalkWords.value +'</span></div>'
+                // str = "Sorry, I cannot understand you."
+                anw = '<div class="atalk"><span>' + returnResponse +'</span></div>'
+                words.innerHTML = words.innerHTML + ask + anw;
+                div.scrollTop = div.scrollHeight;
+                TalkWords.value = ""
+            }
+            function AjaxSubmitl() {
+                var returnResponse = ""
+                $.ajax({
+                    url:'http://127.0.0.1:5000',
+                    type:'GET',
+                    data: {"value": TalkWords.value.toString()},
+                    crossDomain: true,
+                    dataType: "jsonp",
+                    async: false,
+                    jsonp: "callback",
+                    jsonpCallback: "callback",
+                    success:function(response){
+                        returnResponse = response["response"];
+                        return_respopnse(returnResponse)
+                    }
+                })
+            }
+            TalkSub.onclick = function(){
+                if(TalkWords.value == ""){
+                    alert("you need to say someting");
+                    return;
+                }else {
+                    AjaxSubmitl()
+                }
+            }
+            document.onkeydown = function(e){
+                if(!e){
+                e = window.event;
+                }
+                if((e.keyCode || e.which) == 13){
+                    if(TalkWords.value == ""){
+                    alert("you need to say someting");
+                    return;
+                    } else {
+                        AjaxSubmitl()
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="talk_con">
+        <div class="talk_show" id="words">
+            <div class="atalk"><span id="asay">Hi, How can I help you ?</span></div>
+        </div>
+        <div class="talk_input">
+            <input type="text" class="talk_word" id="talkwords">
+            <input type="button" value="Send" class="talk_sub" id="talksub">
+        </div>
+    </div>
+</body>
+</html>

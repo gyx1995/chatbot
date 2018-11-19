@@ -1,0 +1,2210 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "right"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "great choice"
+      },
+      {
+        "intent": "affirm",
+        "text": "sounds really good"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a good one"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "refuse",
+        "text": "no"
+      },
+      {
+        "intent": "refuse",
+        "text": "it is not what I want"
+      },
+      {
+        "intent": "refuse",
+        "text": "no!!"
+      },
+      {
+        "intent": "refuse",
+        "text": "No"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "dear sir"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thank you"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "Can you find me a place to eat"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "Could you find me a place to eat"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "i'm looking for a place to eat"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "i'm looking for a place in the north of town"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere in the west"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "18328",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere near 18328"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "29432",
+            "entity": "location"
+          }
+        ],
+        "text": "I am looking a restaurant in 29432"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 32,
+            "value": "downtown vancouver",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere near downtown vancouver"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "downtown",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere near downtown"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Burnaby",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere near Burnaby"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Richmond",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere near Richmond"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Richmond",
+            "entity": "location"
+          }
+        ],
+        "text": "Do you know any restaurants in Richmond"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "UBC",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere near UBC"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 30,
+            "end": 33,
+            "value": "SFU",
+            "entity": "location"
+          }
+        ],
+        "text": "tell me some restaurants near SFU"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "American",
+            "entity": "category"
+          },
+          {
+            "start": 49,
+            "end": 55,
+            "value": "dinner",
+            "entity": "category"
+          }
+        ],
+        "text": "Can you find me a place to eat American food for dinner"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "lunch",
+            "entity": "category"
+          }
+        ],
+        "text": "what can I eat for lunch"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "American",
+            "entity": "category"
+          }
+        ],
+        "text": "Any American food recommendations"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "lunch",
+            "entity": "category"
+          }
+        ],
+        "text": "I want to grab lunch"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "dinner",
+            "entity": "category"
+          }
+        ],
+        "text": "I am searching for a dinner spot"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Italian",
+            "entity": "category"
+          }
+        ],
+        "text": "Please tell me some Italian restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "breakfast",
+            "entity": "category"
+          }
+        ],
+        "text": "where I can find food for breakfast"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "brunch",
+            "entity": "category"
+          }
+        ],
+        "text": "tell me some places to get brunch"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "Japanese",
+            "entity": "category"
+          }
+        ],
+        "text": "Could you find me a Japanese restaurant"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "asian fusion",
+            "entity": "category"
+          }
+        ],
+        "text": "I am looking for asian fusion food"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 38,
+            "value": "mexican indian fusion",
+            "entity": "category"
+          }
+        ],
+        "text": "I am looking for mexican indian fusion"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "chinese",
+            "entity": "category"
+          }
+        ],
+        "text": "show me some chinese restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "spicy",
+            "entity": "category"
+          }
+        ],
+        "text": "I am looking for spicy food"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "asian",
+            "entity": "category"
+          }
+        ],
+        "text": "I want to get some asian food"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "French",
+            "entity": "category"
+          }
+        ],
+        "text": "tell me some French restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Korean",
+            "entity": "category"
+          }
+        ],
+        "text": "which Korean restaurants do you know"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "non-spicy",
+            "entity": "category"
+          }
+        ],
+        "text": "which non-spicy restaurants do you recommend"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "best",
+            "entity": "rank"
+          },
+          {
+            "start": 31,
+            "end": 40,
+            "value": "vancouver",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the best restaurant in vancouver"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "worst",
+            "entity": "rank"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "town",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the worst restaurants in town"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "top 10",
+            "entity": "rank"
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "town",
+            "entity": "location"
+          }
+        ],
+        "text": "what are the top 10 restaurants in town"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "top 3",
+            "entity": "rank"
+          },
+          {
+            "start": 33,
+            "end": 40,
+            "value": "Burnaby",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the top 3 restaurants in Burnaby"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "top 5",
+            "entity": "rank"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "Richmond",
+            "entity": "location"
+          }
+        ],
+        "text": "what are the top 5 restaurants in Richmond"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "good",
+            "entity": "rank"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "vancouver",
+            "entity": "location"
+          }
+        ],
+        "text": "Any good restaurants in vancouver"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 33,
+            "end": 36,
+            "value": "now",
+            "entity": "time"
+          }
+        ],
+        "text": "which restaurants are still open now"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Korean",
+            "entity": "category"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 39,
+            "end": 50,
+            "value": "11am to 2pm",
+            "entity": "time"
+          }
+        ],
+        "text": "which Korean restaurants are open from 11am to 2pm"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 38,
+            "end": 51,
+            "value": "9:00 to 17:30",
+            "entity": "time"
+          }
+        ],
+        "text": "any chinese restaurants are open from 9:00 to 17:30"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 38,
+            "end": 41,
+            "value": "6pm",
+            "entity": "time"
+          }
+        ],
+        "text": "which chinese restaurants are open at 6pm"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Korean",
+            "entity": "category"
+          },
+          {
+            "start": 31,
+            "end": 35,
+            "value": "10pm",
+            "entity": "time"
+          }
+        ],
+        "text": "where I can get Korean food at 10pm"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "BBQ",
+            "entity": "category"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "value": "8am",
+            "entity": "time"
+          }
+        ],
+        "text": "which BBQ is open at 8am"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "non-spicy",
+            "entity": "category"
+          },
+          {
+            "start": 31,
+            "end": 35,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 39,
+            "end": 44,
+            "value": "11:30",
+            "entity": "time"
+          }
+        ],
+        "text": "which non-spicy restaurants is open at 11:30"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "BBQ",
+            "entity": "category"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "15:20",
+            "entity": "time"
+          }
+        ],
+        "text": "which BBQ is open at 15:20"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "BBQ",
+            "entity": "category"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "00:00",
+            "entity": "time"
+          }
+        ],
+        "text": "which BBQ is open at 00:00"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "ice-cream",
+            "entity": "category"
+          },
+          {
+            "start": 24,
+            "end": 38,
+            "value": "this afternoon",
+            "entity": "time"
+          }
+        ],
+        "text": "I want to get ice-cream this afternoon"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "ice-cream",
+            "entity": "category"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "15:20",
+            "entity": "time"
+          }
+        ],
+        "text": "which ice-cream is open at 15:20"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "03:10",
+            "entity": "time"
+          },
+          {
+            "start": 44,
+            "end": 53,
+            "value": "vancouver",
+            "entity": "location"
+          }
+        ],
+        "text": "find me some restaurants to eat at 03:10 in vancouver"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "breakfast",
+            "entity": "category"
+          },
+          {
+            "start": 36,
+            "end": 50,
+            "value": "in the morning",
+            "entity": "time"
+          }
+        ],
+        "text": "where I can go food for a breakfast in the morning"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "BBQ",
+            "entity": "category"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 18,
+            "end": 27,
+            "value": "overnight",
+            "entity": "time"
+          }
+        ],
+        "text": "which BBQ is open overnight"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "ice-cream",
+            "entity": "category"
+          },
+          {
+            "start": 24,
+            "end": 38,
+            "value": "this afternoon",
+            "entity": "time"
+          }
+        ],
+        "text": "I want to get ice-cream this afternoon"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Korean",
+            "entity": "category"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "tonight",
+            "entity": "time"
+          }
+        ],
+        "text": "where I can get Korean food tonight"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 38,
+            "end": 43,
+            "value": "18:15",
+            "entity": "time"
+          }
+        ],
+        "text": "which chinese restaurants are open at 18:15"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 40,
+            "end": 44,
+            "value": "open",
+            "entity": "status"
+          }
+        ],
+        "text": "Tomorrow, which chinese restaurants are open"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 38,
+            "end": 47,
+            "value": "April 1st",
+            "entity": "date"
+          }
+        ],
+        "text": "which chinese restaurants are open on April 1st"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Korean",
+            "entity": "category"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 57,
+            "end": 64,
+            "value": "Jan 2nd",
+            "entity": "date"
+          }
+        ],
+        "text": "I want to know some Korean restaurants which are open on Jan 2nd"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "Feb 3rd",
+            "entity": "date"
+          }
+        ],
+        "text": "chinese restaurants open on Feb 3rd"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Italian",
+            "entity": "category"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 57,
+            "end": 64,
+            "value": "Mar 4th",
+            "entity": "date"
+          }
+        ],
+        "text": "Please tell me some Italian restaurants that are open on Mar 4th"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "May 28th",
+            "entity": "date"
+          }
+        ],
+        "text": "chinese restaurants open on May 28th"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 28,
+            "end": 37,
+            "value": "Jane 24th",
+            "entity": "date"
+          }
+        ],
+        "text": "chinese restaurants open on Jane 24th"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "mexican",
+            "entity": "category"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 38,
+            "end": 47,
+            "value": "July 10th",
+            "entity": "date"
+          }
+        ],
+        "text": "which mexican restaurants are open on July 10th"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "French",
+            "entity": "category"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "Aug 11th",
+            "entity": "date"
+          }
+        ],
+        "text": "I want to get some French food on Aug 11th"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "Sep 19th",
+            "entity": "date"
+          }
+        ],
+        "text": "chinese restaurants open on Sep 19th"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "Japanese",
+            "entity": "category"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 51,
+            "end": 59,
+            "value": "Oct 28th",
+            "entity": "date"
+          }
+        ],
+        "text": "show me some Japanese restaurants that are open on Oct 28th"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "Nov 25th",
+            "entity": "date"
+          }
+        ],
+        "text": "which restaurants are open on Nov 25th"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "Dec 26th",
+            "entity": "date"
+          }
+        ],
+        "text": "chinese restaurants open on Dec 26th"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "dinner",
+            "entity": "category"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "where I can go for a dinner tomorrow"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "value": "Monday",
+            "entity": "day"
+          }
+        ],
+        "text": "which chinese restaurants are open on Monday"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "lunch",
+            "entity": "category"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "Tuesday",
+            "entity": "day"
+          }
+        ],
+        "text": "I want to grab a lunch on Tuesday"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 28,
+            "end": 37,
+            "value": "Wednesday",
+            "entity": "day"
+          }
+        ],
+        "text": "chinese restaurants open on Wednesday"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Italian",
+            "entity": "category"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 57,
+            "end": 65,
+            "value": "Thursday",
+            "entity": "day"
+          }
+        ],
+        "text": "Please tell me some Italian restaurants that are open on Thursday"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "brunch",
+            "entity": "category"
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "value": "Friday",
+            "entity": "day"
+          }
+        ],
+        "text": "Could you find a brunch restaurant on Friday for me"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "dinner",
+            "entity": "category"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "value": "Saturday",
+            "entity": "day"
+          }
+        ],
+        "text": "I am looking for a dinner on Saturday"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "mexican",
+            "entity": "category"
+          },
+          {
+            "start": 42,
+            "end": 48,
+            "value": "Sunday",
+            "entity": "day"
+          }
+        ],
+        "text": "I am looking for a mexican restaurant  on Sunday"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "cheap",
+            "entity": "priceLevel"
+          },
+          {
+            "start": 45,
+            "end": 48,
+            "value": "now",
+            "entity": "time"
+          }
+        ],
+        "text": "Could you please find me a cheap restaurants now"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "expensive",
+            "entity": "priceLevel"
+          },
+          {
+            "start": 37,
+            "end": 40,
+            "value": "UBC",
+            "entity": "location"
+          }
+        ],
+        "text": "tell me a expensive restaurants near UBC"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "------------------------------"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "chinese",
+            "entity": "category"
+          },
+          {
+            "start": 34,
+            "end": 39,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "show me chines restaurants in the north"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "mexican",
+            "entity": "category"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "centre",
+            "entity": "location"
+          }
+        ],
+        "text": "show me a mexican place in the centre"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "indian",
+            "entity": "category"
+          }
+        ],
+        "text": "i am looking for an indian spot called olaolaolaolaolaola"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "search for restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "central",
+            "entity": "location"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "indian",
+            "entity": "category"
+          }
+        ],
+        "text": "central indian restaurant"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "phone number",
+            "entity": "info"
+          }
+        ],
+        "text": "phone number"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "opening hour",
+            "entity": "info"
+          }
+        ],
+        "text": "opening hour"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "hours",
+            "entity": "info"
+          }
+        ],
+        "text": "hours"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "address",
+            "entity": "info"
+          }
+        ],
+        "text": "address"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "rating",
+            "entity": "info"
+          }
+        ],
+        "text": "rating"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "WooDtree",
+            "entity": "business"
+          }
+        ],
+        "text": "is WooDtree open now"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "WooDtree",
+            "entity": "business"
+          }
+        ],
+        "text": "tell me more about WooDtree"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "now",
+            "entity": "time"
+          }
+        ],
+        "text": "is it open now"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "open",
+            "entity": "status"
+          },
+          {
+            "start": 11,
+            "end": 20,
+            "value": "overnight",
+            "entity": "time"
+          }
+        ],
+        "text": "is it open overnight"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "phone number",
+            "entity": "info"
+          }
+        ],
+        "text": "what is the phone number"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "opening hour",
+            "entity": "info"
+          }
+        ],
+        "text": "what is the opening hour"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "address",
+            "entity": "info"
+          }
+        ],
+        "text": "tell me the address"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "rating",
+            "entity": "info"
+          }
+        ],
+        "text": "give me its rating"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "expensive",
+            "entity": "priceLevel"
+          }
+        ],
+        "text": "how expensive is it"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "cheap",
+            "entity": "priceLevel"
+          }
+        ],
+        "text": "is this resturant cheap"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "price level",
+            "entity": "priceLevel"
+          }
+        ],
+        "text": "what's its price level"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "expensive",
+            "entity": "priceLevel"
+          }
+        ],
+        "text": "Is it expensive"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "cheap",
+            "entity": "priceLevel"
+          }
+        ],
+        "text": "is it cheap"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 30,
+            "value": "average per person",
+            "entity": "priceLevel"
+          }
+        ],
+        "text": "what is the average per person"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "how expensive",
+            "entity": "priceLevel"
+          }
+        ],
+        "text": "how expensive is it"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "how expensive",
+            "entity": "priceLevel"
+          }
+        ],
+        "text": "how expensive"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "how expensive",
+            "entity": "priceLevel"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "XXXX",
+            "entity": "business"
+          }
+        ],
+        "text": "how expensive is XXXX"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "priceLevel"
+          }
+        ],
+        "text": "how much per person"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "priceLevel"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "dinner",
+            "entity": "category"
+          }
+        ],
+        "text": "how much for dinner"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "priceLevel"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "lunch",
+            "entity": "category"
+          }
+        ],
+        "text": "how much for lunch"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "priceLevel"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "breakfast",
+            "entity": "category"
+          }
+        ],
+        "text": "how much for breakfast"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "open",
+            "entity": "status"
+          }
+        ],
+        "text": "when does it open"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "close",
+            "entity": "status"
+          }
+        ],
+        "text": "when does it close"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "address",
+            "entity": "info"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "XXXX",
+            "entity": "business"
+          }
+        ],
+        "text": "tell me the address for XXXX"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "hours",
+            "entity": "info"
+          }
+        ],
+        "text": "tell me the hours"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "phone number",
+            "entity": "info"
+          },
+          {
+            "start": 36,
+            "end": 40,
+            "value": "XXXX",
+            "entity": "business"
+          }
+        ],
+        "text": "please tell me the phone number for XXXX"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "phone#",
+            "entity": "info"
+          }
+        ],
+        "text": "tell me the phone# please"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "price Level",
+            "entity": "priceLevel"
+          },
+          {
+            "start": 45,
+            "end": 49,
+            "value": "XXXX",
+            "entity": "business"
+          }
+        ],
+        "text": "Could you please tell me the price Level for XXXX"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "XXXX",
+            "entity": "business"
+          }
+        ],
+        "text": "what is XXXX about"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "kinds",
+            "entity": "info"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "XXXX",
+            "entity": "business"
+          }
+        ],
+        "text": "what kinds of food I can get from XXXX"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "what food",
+            "entity": "info"
+          }
+        ],
+        "text": "what food does it offer"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "what food",
+            "entity": "info"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "XXXX",
+            "entity": "business"
+          }
+        ],
+        "text": "what food I can get from XXXX"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "mexican",
+            "entity": "category"
+          }
+        ],
+        "text": "Does it offer mexican food"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "chinese",
+            "entity": "category"
+          }
+        ],
+        "text": "Does it have chinese food"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "XXXX",
+            "entity": "business"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Italian",
+            "entity": "category"
+          }
+        ],
+        "text": "Does XXXX offer Italian dishes"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "XXXX",
+            "entity": "business"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "French",
+            "entity": "category"
+          }
+        ],
+        "text": "Does XXXX have  French dishes"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "XXXX",
+            "entity": "business"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "French",
+            "entity": "category"
+          }
+        ],
+        "text": "is XXXX a French restaurants"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "XXXX",
+            "entity": "business"
+          },
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Japanese",
+            "entity": "category"
+          }
+        ],
+        "text": "can I say XXXX is  a Japanese restaurants"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "XXXX",
+            "entity": "business"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "Japanese",
+            "entity": "category"
+          }
+        ],
+        "text": "do you know if XXXX is  a Japanese restaurants"
+      },
+      {
+        "intent": "restaurant_info",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "XXXX",
+            "entity": "business"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "French",
+            "entity": "category"
+          }
+        ],
+        "text": "do you know whether XXXX is  a French restaurants"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": [
+          "chines",
+          "Chines",
+          "Chinese"
+        ]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "vegg",
+          "veggie"
+        ]
+      }
+    ]
+  }
+}
