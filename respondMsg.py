@@ -101,7 +101,7 @@ def renew_parameters():
     global num_visited_rest
     global info_rest_id
     global yelp_Info
-    print("renew_parameters is called")
+    # print("renew_parameters is called")
     # global day
     # global date
     # global status
@@ -199,10 +199,10 @@ def sign_entities(entities):
         fmt = "%Y-%m-%d %H:%M"
         epochDate = int(time.mktime(time.strptime(mytm, fmt)))
         time_t = epochDate
-    print(location)
-    print(category)
-    print(time_t)
-    print(priceLevel)
+    # print(location)
+    # print(category)
+    # print(time_t)
+    # print(priceLevel)
 
 
 def set_info_rest_id(message, intent):
@@ -215,7 +215,7 @@ def set_info_rest_id(message, intent):
 
 
 def find_info(info_key):
-    print("rest id: " + info_rest_id)
+    # print("rest id: " + info_rest_id)
     global yelp_Info
     if yelp_Info == {}:
         yelp_Info = yelp_api.business_query(id=info_rest_id)
@@ -248,19 +248,19 @@ def advanced_intent(message, intent, entities):
     sign_entities(entities)
     result = "hmmm, I did not expect that"
     # adjust intent
-    print("dict_restaurants: " + str(dict_restaurants))
+    # print("dict_restaurants: " + str(dict_restaurants))
     if message in dict_restaurants and intent == "restaurant_search":
         intent = "None"
     set_info_rest_id(message, intent)
-    print("old state: " + str(STATE))
-    print("current intent: " + intent)
-    print("current entities: " + str(entities))
-    print("current info_rest_id: " + str(info_rest_id))
+    # print("old state: " + str(STATE))
+    # print("current intent: " + intent)
+    # print("current entities: " + str(entities))
+    # print("current info_rest_id: " + str(info_rest_id))
     try:
         STATE, response_list = policy_rules[(STATE, intent)]
     except:
         return result
-    print("new state: " + str(STATE))
+    # print("new state: " + str(STATE))
     if STATE == RESTA_SE:
         if intent == "None":
             result = response_list[0]
@@ -286,14 +286,14 @@ def advanced_intent(message, intent, entities):
 
     elif STATE == RESTA_INF and intent == "restaurant_info":
         regex = r"\((.*?)\)"
-        print("Inside State = RESTA_INF; intent == restaurant_info")
+        # print("Inside State = RESTA_INF; intent == restaurant_info")
         if re.search(regex, message):
-            print("regex matches")
+            # print("regex matches")
             match = re.search(regex, message)
             talking_restaurants.clear()
             talking_restaurants.append(match.group(1))
-            print("restaurant name: " + match.group(1))
-            print(" talking rest and location: " + talking_restaurants[0] + location)
+            # print("restaurant name: " + match.group(1))
+            # print(" talking rest and location: " + talking_restaurants[0] + location)
             response = yelp_api.search_query(term=talking_restaurants[0], location=location)
             if response["total"] == 0:
                 result = "sorry, I did not find anything that matches"
@@ -311,7 +311,7 @@ def advanced_intent(message, intent, entities):
                 renew_parameters()
                 return result
         else:
-            print("regex does not match")
+            # print("regex does not match")
             if info_rest_id != "":
                 result = "hmm, you got me. I don't know what do say. But I can help you find a place to eat."
                 if "info" in entities:
@@ -322,7 +322,7 @@ def advanced_intent(message, intent, entities):
                             result = "sorry, I can only tell you one at a time"
                         else:
                             info_value = find_info(info_key)
-                            print("info_value: " + info_key)
+                            # print("info_value: " + info_key)
                             if info_value == "":
                                 result = "sorry, I did not know its {}".format(info_key)
                             else:
@@ -349,7 +349,7 @@ def respond(message):
     else:
         intent = "refuse"
     simple_intent = ["None", "affirm", "goodbye", "greet", "thank", "refuse"]
-    print("intent and entities " + intent)
+    # print("intent and entities " + intent)
     if STATE == INIT and intent in simple_intent:
         response = random.choice(responseDic.responses[intent])
         return response

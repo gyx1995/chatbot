@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8ce7d07-e8fd-455b-889e-84d4faa18799" name="Default Changelist" comment="" />
+    <list default="true" id="c8ce7d07-e8fd-455b-889e-84d4faa18799" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/respondMsg.py" beforeDir="false" afterPath="$PROJECT_DIR$/respondMsg.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/chatbot$yelpInfor.coverage" NAME="yelpInfor Coverage Results" MODIFIED="1541643544529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chatbot$main.coverage" NAME="main Coverage Results" MODIFIED="1542260952706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chatbot$main.coverage" NAME="main Coverage Results" MODIFIED="1542604496236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="388900559">
@@ -59,7 +65,7 @@
     <session id="1568776656">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
@@ -72,8 +78,8 @@
           <entry key="html" value="3" />
           <entry key="intentAndEntities" value="2" />
           <entry key="json" value="2" />
-          <entry key="md" value="4" />
-          <entry key="py" value="25" />
+          <entry key="md" value="5" />
+          <entry key="py" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -81,9 +87,9 @@
           <entry key="HTML" value="3" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="25" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -92,49 +98,31 @@
           <entry key="dummy" value="8" />
           <entry key="html" value="778" />
           <entry key="intentAndEntities" value="10" />
-          <entry key="md" value="686" />
-          <entry key="py" value="8094" />
+          <entry key="md" value="762" />
+          <entry key="py" value="8316" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="778" />
           <entry key="Ini" value="2" />
-          <entry key="Markdown" value="686" />
+          <entry key="Markdown" value="762" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="8094" />
+          <entry key="Python" value="8316" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/respondMsg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4500">
-              <caret line="308" column="17" selection-start-line="308" selection-start-column="17" selection-end-line="308" selection-end-column="17" />
+            <state relative-caret-position="162">
+              <caret line="325" column="48" lean-forward="true" selection-start-line="325" selection-start-column="48" selection-end-line="325" selection-end-column="48" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/try.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -178,11 +166,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="104" column="51" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1542606740681" expanded="true" signature="269:293" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -237,9 +250,12 @@
       <find>should not go here</find>
       <find>curre</find>
       <find>sorry, those are all I found. Let's restart!</find>
-      <find>print</find>
       <find>message</find>
+      <find>print</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -260,10 +276,12 @@
         <option value="$PROJECT_DIR$/analysisMsg.py" />
         <option value="$PROJECT_DIR$/yelpExamples.py" />
         <option value="$PROJECT_DIR$/rasa_nlu/demo-rasa.md" />
-        <option value="$PROJECT_DIR$/respondMsg.py" />
-        <option value="$PROJECT_DIR$/respondMsg.py" />
         <option value="$PROJECT_DIR$/responseDic.py" />
         <option value="$PROJECT_DIR$/responseDic.py" />
+        <option value="$PROJECT_DIR$/wx.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/respondMsg.py" />
+        <option value="$PROJECT_DIR$/respondMsg.py" />
       </list>
     </option>
   </component>
@@ -274,11 +292,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="313" />
+    <option name="x" value="217" />
     <option name="y" value="39" />
     <option name="width" value="1435" />
     <option name="height" value="959" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -419,7 +438,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="313" y="39" width="1435" height="959" extended-state="0" />
+    <frame x="217" y="39" width="1435" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22469491" />
@@ -538,16 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/respondMsg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4500">
-          <caret line="308" column="17" selection-start-line="308" selection-start-column="17" selection-end-line="308" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/try.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -607,6 +616,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="104" column="51" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1542606740681" expanded="true" signature="269:293" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/respondMsg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="325" column="48" lean-forward="true" selection-start-line="325" selection-start-column="48" selection-end-line="325" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
