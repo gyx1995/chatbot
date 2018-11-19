@@ -14,6 +14,9 @@ This system is build using python 3.6.6 and RASA NLU. You can find more informat
 -	Find me a French restaurant 
 -	Can you find me a japanese restaurant in Vancouver?
 -	Do you know any restaurants opening at 17:30?
+<<<<<<< HEAD
 
 # wxpy：
 if you want to try it with wechat, just run $python wx.py
+=======
+>>>>>>> 5d9b0872af41f5e47f9cfe177edf3f76f8ebf7b9
